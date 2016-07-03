@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.subatomicduckwizard" name="Subatomic Duck Wizard" version="0.0.1" provider-name="SubAt0micDuck and Aftermath">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Subatomic Duck Wizard</summary>
+    <description lang="en">Subatomic Duck Wizard allows you to get access to the latest Subatomic Duck Custom Builds.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.atomic-duck" name="[COLOR red][B][I]ATOMIC DUCK[/I][/B][/COLOR][COLOR grey] [B]REPOSITORY[/B][/COLOR]" version="0.0.1" provider-name="[COLOR red][B][I]ATOMIC[/I][/B][/COLOR][COLOR grey] [B]DUCK[/B][/COLOR]">
+	<extension point="xbmc.addon.repository" name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]REPOSITORY[/B][/COLOR]">
+		<info compressed="false">https://raw.github.com/quacken/atomic-duck/master/addons.xml</info>
+		<checksum>https://raw.github.com/quacken/atomic-duck/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/quacken/atomic-duck/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Atomic Duck Repository</summary>
+		<description>[COLOR red][B][I]ATOMIC DUCK[/I][/B][/COLOR][COLOR grey] [B]REPOSITORY.[/B][/COLOR] The home of Atomic Duck Builds</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
