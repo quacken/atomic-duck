@@ -16,7 +16,7 @@
 </addon>
 
 <addon id="repository.atomic-duck" name="[COLOR red][B][I]ATOMIC DUCK[/I][/B][/COLOR][COLOR grey] [B]REPOSITORY[/B][/COLOR]" version="0.0.1" provider-name="[COLOR red][B][I]ATOMIC[/I][/B][/COLOR][COLOR grey] [B]DUCK[/B][/COLOR]">
-	<extension point="xbmc.addon.repository" name="[COLOR red][B][I]KOBRA[/I][/B][/COLOR][COLOR grey] [B]REPOSITORY[/B][/COLOR]">
+	<extension point="xbmc.addon.repository" name="[COLOR red][B][I]ATOMIC DUCK[/I][/B][/COLOR][COLOR grey] [B]REPOSITORY[/B][/COLOR]">
 		<info compressed="false">https://raw.github.com/quacken/atomic-duck/master/addons.xml</info>
 		<checksum>https://raw.github.com/quacken/atomic-duck/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.github.com/quacken/atomic-duck/master/</datadir>
